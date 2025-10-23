@@ -8,3 +8,8 @@ class HTMLNodeTest(unittest.TestCase):
         self.assertEqual(node.tag, "div")
         self.assertEqual(node.value, "Hello")
         self.assertEqual(node.props, {"class": "greeting"})
+    # Need to add more tests here
+
+
+if __name__ == "__main__":
+    unittest.main()
